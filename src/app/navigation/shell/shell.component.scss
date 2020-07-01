@@ -1,0 +1,44 @@
+mat-sidenav-container, mat-sidenav-content {
+  height: 100%
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+.mat-toolbar {
+  background-color: black;
+}
+
+.toolbar a {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightblue;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+svg#rocket {
+  width: 40px;
+}
+
+.ng-title {
+  font-size: 18px;
+  padding: 5px;
+}

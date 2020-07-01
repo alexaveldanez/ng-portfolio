@@ -1,0 +1,42 @@
+
+#container {
+  height: 100% ;
+  position: relative;
+  width: 100%;
+}
+
+#canvas {
+  height: 100%;
+  width: 100%;
+  background-image:url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+}
+
+.intro-section {
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  top: 250px;
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.intro-section > p {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+h1 {
+  font-size: 6rem;
+}
+
+
+img {
+  height: 150px;
+  vertical-align: middle;
+}
+
+
+
