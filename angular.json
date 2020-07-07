@@ -143,8 +143,13 @@
               "devServerTarget": "ng-portfolio:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-portfolio"
 }

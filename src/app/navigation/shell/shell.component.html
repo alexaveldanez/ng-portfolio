@@ -6,6 +6,7 @@
   [opened]="false">
 
   <mat-toolbar>
+    <a routerLink="/">
     <svg id="rocket" alt="Rocket Ship" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
       <g id="Group_83" data-name="Group 83" transform="translate(-141 -696)">
         <circle id="Ellipse_8" data-name="Ellipse 8" cx="50.839" cy="50.839" r="50.839" transform="translate(141 696)" fill="#dd0031"/>
@@ -15,6 +16,7 @@
         </g>
       </g>
     </svg>
+    </a>
     <span class="ng-title">NG Portfolio</span>
   </mat-toolbar>
 
@@ -39,16 +41,15 @@
     <mat-toolbar>
       <button
       type="button"
-      aria-label="Toggle sidenav"
       mat-icon-button
       (click)="drawer.toggle()"
       *ngIf="isHandset$ | async">
-      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      <mat-icon>menu</mat-icon>
       </button>
 
 
  <!-- Angular Rocket -->
-
+ <a routerLink="/">
   <svg id="rocket" *ngIf="!(isHandset$ | async)" alt="Rocket Ship" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
     <g id="Group_83" data-name="Group 83" transform="translate(-141 -696)">
       <circle id="Ellipse_8" data-name="Ellipse 8" cx="50.839" cy="50.839" r="50.839" transform="translate(141 696)" fill="#dd0031"/>
@@ -58,7 +59,7 @@
       </g>
     </g>
   </svg>
-
+</a>
   <span class="ng-title" *ngIf="!(isHandset$ | async)">NG Portfolio</span>
 
 

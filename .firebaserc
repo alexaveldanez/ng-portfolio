@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "alexaveldanez-4050a": {
+      "hosting": {
+        "ng-portfolio": [
+          "alexaveldanez-4050a"
+        ]
+      }
+    }
+  }
+}

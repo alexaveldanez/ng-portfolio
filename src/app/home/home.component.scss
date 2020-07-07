@@ -38,5 +38,26 @@ img {
   vertical-align: middle;
 }
 
+@media (max-width: 500px) {
+  .intro-section {
+    top: 300px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  img {
+    height: 60px;
+    vertical-align: middle;
+  }
+
+  .intro-section > p {
+    font-size: 20px;
+    font-weight: 20;
+    font-style: italic;
+  }
+
+}
 
 
